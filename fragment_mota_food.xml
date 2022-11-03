@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".motaDowloadFragment">
+
+        <ImageView
+            android:id="@+id/imgMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dp"
+            android:background="@drawable/boder" />
+    <TextView
+        android:id="@+id/txt_mota_tenfood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:lines="1"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_gia_mota"
+        android:text="gia"
+        android:textSize="22dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_mo_ta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mo ta"
+        android:lines="3"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_orderfood"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="270dp"
+        android:padding="12dp"
+        android:text="Order Now"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>
